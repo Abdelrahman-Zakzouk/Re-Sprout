@@ -18,8 +18,8 @@ flowchart LR
     D --> E["5. Recommendation cards"]
 ```
 
-| Step | What happens | Owner |
-|---|---|---|
+| Step | What happens |
+|---|---|
 | 1. Pin a street | User clicks a street on the map; app captures its coordinates.
 | 2. Get climate data | A climate data API returns surface temperature and conditions for that pin.
 | 3. Match plants | A Decision Tree / Random Forest scores plants against local conditions and returns the top picks.
